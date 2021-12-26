@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "ru.dudar_ig.nasaimages"
+        applicationId "ru.dudar_ig.nasaimage"
         minSdk 23
         targetSdk 31
         versionCode 1
@@ -24,9 +24,9 @@ android {
     }
     buildTypes.each {
         Properties properties = new Properties()
-        properties.load(project.rootProject.file("api.properties").newDataInputStream())
+        properties.load(project.rootProject.file("local.properties").newDataInputStream())
         def nasaApiKey  = properties.getProperty("nasaApiKey", "")
-        it.buildConfigField "String", "NASA_KEY", nasaApiKey
+        it.buildConfigField "String", "NASA_KEY_API", nasaApiKey
     }
     buildFeatures {
         viewBinding true
@@ -42,14 +42,12 @@ android {
 }
 
 dependencies {
-
+    implementation "androidx.fragment:fragment-ktx:1.4.0"
+    implementation 'androidx.activity:activity-ktx:1.4.0'
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
-
-    implementation "androidx.fragment:fragment-ktx:1.4.0"
-    implementation 'androidx.activity:activity-ktx:1.4.0'
     implementation "io.coil-kt:coil:0.11.0"
 
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
@@ -60,7 +58,6 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
-
 
 
     testImplementation 'junit:junit:4.+'
