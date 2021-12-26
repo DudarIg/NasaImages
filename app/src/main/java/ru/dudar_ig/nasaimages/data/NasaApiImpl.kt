@@ -27,8 +27,8 @@ class NasaApiImpl {
     fun nasaImage(dat: String): LiveData<NasaImage> {
 
         val responseLiveData = MutableLiveData<NasaImage>()
-        val key = BuildConfig.NASA_KEY
-        api.loadImage(key, dat).enqueue(object : Callback<NasaImage>{
+        //val key = BuildConfig.NASA_KEY
+        api.loadImage("UaRtzzycORXoHSmN7nzJitzMG6LsrOyP6aSLK9Le", dat).enqueue(object : Callback<NasaImage>{
             override fun onResponse(call: Call<NasaImage>, response: Response<NasaImage>) {
                 val jsonImage: NasaImage? = response.body()
                 responseLiveData.value = jsonImage!!
