@@ -4,7 +4,7 @@ package ru.dudar_ig.nasaimages.ui
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import ru.dudar.nasaimages.ui.SettingsFragment
+import ru.dudar_ig.nasaimages.ui.SettingsFragment
 import ru.dudar_ig.nasaimages.R
 import ru.dudar_ig.nasaimages.databinding.ActivityMainBinding
 import ru.dudar_ig.nasaimages.ui.globus.GlobusFragment

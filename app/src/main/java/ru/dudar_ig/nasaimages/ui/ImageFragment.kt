@@ -11,7 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import coil.api.load
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import ru.dudar.nasaimages.ui.ImageViewModel
+import ru.dudar_ig.nasaimages.ui.ImageViewModel
 import ru.dudar_ig.nasaimages.R
 import ru.dudar_ig.nasaimages.databinding.ImageFragmentBinding
 

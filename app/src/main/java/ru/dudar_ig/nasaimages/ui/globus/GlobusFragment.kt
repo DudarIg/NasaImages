@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
-import ru.dudar.nasaimages.ui.globus.ViewPagerAdapter
+import ru.dudar_ig.nasaimages.ui.globus.ViewPagerAdapter
 import ru.dudar_ig.nasaimages.R
 
 class GlobusFragment : Fragment() {

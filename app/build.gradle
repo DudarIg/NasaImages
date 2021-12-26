@@ -24,9 +24,9 @@ android {
     }
     buildTypes.each {
         Properties properties = new Properties()
-        properties.load(project.rootProject.file("local.properties").newDataInputStream())
+        properties.load(project.rootProject.file("api.properties").newDataInputStream())
         def nasaApiKey  = properties.getProperty("nasaApiKey", "")
-        it.buildConfigField "String", "NASA_API_KEY", nasaApiKey
+        it.buildConfigField "String", "NASA_KEY", nasaApiKey
     }
     buildFeatures {
         viewBinding true
