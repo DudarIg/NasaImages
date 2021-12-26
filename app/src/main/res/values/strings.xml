@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">NasaImages</string>
+    <string name="app_name">NasaImage</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thema1">Цветовая схема 1</string>
+    <string name="thema2">Цветовая схема 2</string>
 </resources>
