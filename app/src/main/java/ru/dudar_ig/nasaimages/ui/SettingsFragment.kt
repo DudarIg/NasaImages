@@ -1,12 +1,12 @@
-package ru.dudar.nasaimage.ui
+package ru.dudar_ig.nasaimages.ui
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.chip.Chip
-import ru.dudar.nasaimage.R
-import ru.dudar.nasaimage.databinding.FragmentSettingsBinding
+import ru.dudar_ig.nasaimages.R
+import ru.dudar_ig.nasaimages.databinding.FragmentSettingsBinding
 
 class SettingsFragment : Fragment(R.layout.fragment_settings) {
 

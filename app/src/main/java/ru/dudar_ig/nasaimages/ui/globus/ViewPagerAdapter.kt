@@ -1,9 +1,8 @@
-package ru.dudar.nasaimage.ui.globus
+package ru.dudar_ig.nasaimages.ui.globus
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
-
 
 class ViewPagerAdapter(private val fragmentManager: FragmentManager): FragmentStatePagerAdapter(fragmentManager) {
     private val fragments = arrayOf(EarchFragment(), MarsFragment(), MoonFragment())

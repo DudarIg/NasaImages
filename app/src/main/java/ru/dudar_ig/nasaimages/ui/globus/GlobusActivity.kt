@@ -1,8 +1,9 @@
-package ru.dudar.nasaimage.ui.globus
+package ru.dudar_ig.nasaimages.ui.globus
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import ru.dudar.nasaimage.databinding.ActivityGlobusBinding
+import ru.dudar.nasaimages.ui.globus.ViewPagerAdapter
+import ru.dudar_ig.nasaimages.databinding.ActivityGlobusBinding
 
 class GlobusActivity : AppCompatActivity() {
     private lateinit var binding: ActivityGlobusBinding

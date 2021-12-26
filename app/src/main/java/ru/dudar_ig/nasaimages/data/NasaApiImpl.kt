@@ -1,13 +1,15 @@
-package ru.dudar.nasaimage.data
+package ru.dudar_ig.nasaimages.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import androidx.viewbinding.BuildConfig
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import ru.dudar.nasaimage.BuildConfig
+import ru.dudar_ig.nasaimages.BuildConfig.NASA_API_KEY
+
 
 private const val BASEURL = "https://api.nasa.gov/"
 

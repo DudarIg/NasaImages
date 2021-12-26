@@ -1,4 +1,4 @@
-package ru.dudar.nasaimage.data
+package ru.dudar_ig.nasaimages.data
 
 import com.google.gson.annotations.SerializedName
 

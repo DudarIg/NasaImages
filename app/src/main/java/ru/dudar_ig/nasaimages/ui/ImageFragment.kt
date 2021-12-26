@@ -1,19 +1,19 @@
-package ru.dudar.nasaimage.ui
+package ru.dudar_ig.nasaimages.ui
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import coil.api.load
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import ru.dudar.nasaimage.R
-import ru.dudar.nasaimage.databinding.ImageFragmentBinding
+import ru.dudar.nasaimages.ui.ImageViewModel
+import ru.dudar_ig.nasaimages.R
+import ru.dudar_ig.nasaimages.databinding.ImageFragmentBinding
 
 class ImageFragment : Fragment(R.layout.image_fragment) {
 

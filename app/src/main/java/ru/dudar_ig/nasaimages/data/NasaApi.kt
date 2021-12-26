@@ -1,4 +1,4 @@
-package ru.dudar.nasaimage.data
+package ru.dudar_ig.nasaimages.data
 
 import retrofit2.Call
 import retrofit2.http.GET

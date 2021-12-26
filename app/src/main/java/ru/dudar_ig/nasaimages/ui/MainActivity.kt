@@ -1,13 +1,13 @@
-package ru.dudar.nasaimage.ui
+package ru.dudar_ig.nasaimages.ui
 
-import android.content.Intent
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import ru.dudar.nasaimage.R
-import ru.dudar.nasaimage.databinding.ActivityMainBinding
-import ru.dudar.nasaimage.ui.globus.GlobusActivity
-import ru.dudar.nasaimage.ui.globus.GlobusFragment
+import ru.dudar.nasaimages.ui.SettingsFragment
+import ru.dudar_ig.nasaimages.R
+import ru.dudar_ig.nasaimages.databinding.ActivityMainBinding
+import ru.dudar_ig.nasaimages.ui.globus.GlobusFragment
 
 class MainActivity : AppCompatActivity() {
 

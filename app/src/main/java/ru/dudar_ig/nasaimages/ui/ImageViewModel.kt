@@ -1,11 +1,11 @@
-package ru.dudar.nasaimage.ui
+package ru.dudar_ig.nasaimages.ui
 
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import ru.dudar.nasaimage.data.NasaApiImpl
-import ru.dudar.nasaimage.data.NasaImage
+import ru.dudar_ig.nasaimages.data.NasaApiImpl
+import ru.dudar_ig.nasaimages.data.NasaImage
 import java.time.LocalDateTime
 import java.time.Period
 import java.time.format.DateTimeFormatter
